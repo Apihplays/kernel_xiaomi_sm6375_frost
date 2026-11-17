@@ -184,10 +184,13 @@ modules.builtin.modinfo
 KernelSU/modules/system/lib/modules/*.ko
 
 # Repack artifacts
-AGENTS.md
-AnyKernel3/
 nebula-ksu-susfs.zip
 nebula-veux-20261030-1517.zip
 nebula-veux-20261030-1517.zip:Zone.Identifier
 nebula_extract/
-repack-kernel.sh
+
+# Temp repack directories
+ak3_repack/
+neb_repack/
+nebula_extract2/
+veux-pixelos_a17-*.zip
